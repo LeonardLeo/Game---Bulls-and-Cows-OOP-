@@ -22,7 +22,8 @@ class Action:
         self.number = 0
         
     def counting_bulls(self):
-        self.y =        self.number_bulls = 0
+        self.y = 0       
+        self.number_bulls = 0
         while self.y < 4:
             self.number = str(self.number)
             self.generated_number = str(self.generated_number)
